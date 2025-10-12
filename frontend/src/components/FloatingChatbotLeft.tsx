@@ -27,7 +27,7 @@ export default function FloatingChatbotLeft({ className = "" }: FloatingChatbotL
     setMessages([
       {
         id: "1",
-        text: "Hello! I'm your SmythOS Agent Assistant. I can help you with document management, IELTS preparation, web search, email services, and more. What can I help you with today?",
+        text: "Hello! I'm your AI Agent Assistant. I can help you with document management, IELTS preparation, web search, email services, and more. What can I help you with today?",
         isUser: false,
         timestamp: new Date(),
       },
@@ -208,7 +208,7 @@ export default function FloatingChatbotLeft({ className = "" }: FloatingChatbotL
                 </svg>
               </div>
               <div>
-                <h3 className="font-bold text-lg">SmythOS Agent</h3>
+                <h3 className="font-bold text-lg">AI Agent</h3>
                 <div className="flex items-center space-x-1">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                   <span className="text-sm text-white/80">Online • AI Powered</span>

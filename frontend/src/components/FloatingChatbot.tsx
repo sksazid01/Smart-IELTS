@@ -3,6 +3,17 @@
 import { useState, useRef, useEffect } from "react";
 import { agentService, type DocumentSearchResult, type WebSearchResult } from "@/lib/agentService";
 
+// Custom hook to handle client-side mounting
+function useClientMount() {
+  const [isClient, setIsClient] = useState(false);
+  
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+  
+  return isClient;
+}
+
 interface Message {
   id: string;
   text: string;
@@ -18,16 +29,9 @@ interface FloatingChatbotProps {
 }
 
 export default function FloatingChatbot({ className = "" }: FloatingChatbotProps) {
+  const isClient = useClientMount();
   const [isOpen, setIsOpen] = useState(false);
-  const [messages, setMessages] = useState<Message[]>([
-    {
-      id: "1",
-      text: "Hello! I'm your advanced IELTS AI Assistant powered by SmythOS. I can help you with:\\n\\n📚 Find answers from IELTS study materials\\n🔍 Search through practice questions\\n📧 Email study materials to your group\\n🌐 Get latest IELTS updates from the web\\n☁️ Manage your PDF documents in Google Drive\\n\\nWhat would you like to know about IELTS preparation?",
-      isUser: false,
-      timestamp: new Date(),
-      type: 'text',
-    },
-  ]);
+  const [messages, setMessages] = useState<Message[]>([]);
   const [inputText, setInputText] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [agentStatus, setAgentStatus] = useState<'online' | 'offline' | 'checking'>('checking');
@@ -41,10 +45,27 @@ export default function FloatingChatbot({ className = "" }: FloatingChatbotProps
     scrollToBottom();
   }, [messages]);
 
+  // Initialize client-side rendering and set initial message
+  useEffect(() => {
+    if (isClient) {
+      setMessages([
+        {
+          id: "1",
+          text: "Hello! I'm your advanced IELTS AI Assistant. I can help you with:\n\n📚 Find answers from IELTS study materials\n🔍 Search through practice questions\n📧 Email study materials to your group\n🌐 Get latest IELTS updates from the web\n☁️ Manage your PDF documents in Google Drive\n\nWhat would you like to know about IELTS preparation?",
+          isUser: false,
+          timestamp: new Date(),
+          type: 'text',
+        },
+      ]);
+    }
+  }, [isClient]);
+
   // Check agent health on component mount
   useEffect(() => {
-    checkAgentHealth();
-  }, []);
+    if (isClient) {
+      checkAgentHealth();
+    }
+  }, [isClient]);
 
   const checkAgentHealth = async () => {
     setAgentStatus('checking');
@@ -211,7 +232,7 @@ export default function FloatingChatbot({ className = "" }: FloatingChatbotProps
 
   const getStatusText = () => {
     switch (agentStatus) {
-      case 'online': return 'Online • SmythOS Agent Active';
+      case 'online': return 'Online • AI Agent Active';
       case 'offline': return 'Offline • Connection Issue';
       case 'checking': return 'Connecting...';
       default: return 'Unknown Status';
@@ -246,15 +267,20 @@ export default function FloatingChatbot({ className = "" }: FloatingChatbotProps
           )}
           
           <p className="text-xs opacity-70 mt-2">
-            {message.timestamp.toLocaleTimeString([], {
+            {isClient ? message.timestamp.toLocaleTimeString([], {
               hour: "2-digit",
               minute: "2-digit",
-            })}
+            }) : '--:--'}
           </p>
         </div>
       </div>
     );
   };
+
+  // Don't render anything until client-side hydration is complete
+  if (!isClient) {
+    return null;
+  }
 
   return (
     <div className={`fixed bottom-6 left-6 z-50 ${className}`}>
@@ -329,8 +355,8 @@ export default function FloatingChatbot({ className = "" }: FloatingChatbotProps
                   <div className="flex items-center space-x-3">
                     <div className="flex space-x-1">
                       <div className="w-2 h-2 bg-blue-400 rounded-full animate-bounce"></div>
-                      <div className="w-2 h-2 bg-blue-400 rounded-full animate-bounce" style={{ animationDelay: "0.1s" }}></div>
-                      <div className="w-2 h-2 bg-blue-400 rounded-full animate-bounce" style={{ animationDelay: "0.2s" }}></div>
+                      <div className="w-2 h-2 bg-blue-400 rounded-full animate-bounce-1"></div>
+                      <div className="w-2 h-2 bg-blue-400 rounded-full animate-bounce-2"></div>
                     </div>
                     <span>SmythOS agent is thinking...</span>
                   </div>

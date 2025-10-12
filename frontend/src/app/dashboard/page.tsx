@@ -342,7 +342,7 @@ export default function Dashboard() {
                 </div>
                 <div>
                   <h4 className="text-2xl font-bold text-white mb-2">
-                    IELTS SmythOs Agent to Learn
+                    IELTS AI Agent to Learn
                   </h4>
                   <p className="text-indigo-200 text-lg">
                     Get instant answers to your IELTS questions from our AI
