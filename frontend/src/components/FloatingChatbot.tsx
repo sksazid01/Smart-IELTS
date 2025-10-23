@@ -358,7 +358,7 @@ export default function FloatingChatbot({ className = "" }: FloatingChatbotProps
                       <div className="w-2 h-2 bg-blue-400 rounded-full animate-bounce-1"></div>
                       <div className="w-2 h-2 bg-blue-400 rounded-full animate-bounce-2"></div>
                     </div>
-                    <span>SmythOS agent is thinking...</span>
+                    <span>AI agent is thinking...</span>
                   </div>
                 </div>
               </div>

@@ -2,6 +2,14 @@
 
 <div align="center">
 
+## 🎥 **Demonstration On Youtube**
+
+[![Watch Demonstration Video](HomePage.png)](https://www.youtube.com/watch?v=mgMEFtJPmYY)
+
+**[🎬 Click here to watch the complete project demonstration](https://www.youtube.com/watch?v=mgMEFtJPmYY)**
+
+---
+
 ![Smart IELTS Banner](https://img.shields.io/badge/Smart%20IELTS-AI%20Powered-blue?style=for-the-badge&logo=graduation-cap)
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.5.3-black?style=flat-square&logo=next.js)](https://nextjs.org/)
@@ -33,10 +41,10 @@
 
 > **Alhamdulillah!** We are super excited to share that our team **SUST_Prompt_Storm** secured **4th position** 🎉 in the **Inter-University National Hackathon 2025** at Green University of Bangladesh, powered by **SmythOS** 🚀
 
-### 🌟 **Our Journey**
-- **📊 Selection Round**: Ranked **6th out of ~250 teams**
-- **🏁 Final Round**: Competed among **50 finalist teams**
-- **🥇 Final Result**: Secured **4th position**
+### 🌟 Our Journey
+- 📊 Selection Round: Ranked 6th out of ~250 teams
+- 🏁 Final Round: Competed among 50 finalist teams
+- 🥇 Final Result: Secured 4th position
 
 <div align="center">
 
@@ -46,10 +54,10 @@
 
 </div>
 
-### 👨‍💻 **Team SUST_Prompt_Storm**
-- **[Abhishek Dash](https://www.linkedin.com/in/abhishek-dash-60762322a/)** - Team Leader and Frontend Developer & UI/UX
-- **[Badhon Ahmad](https://www.linkedin.com/in/badhon-ahmad-5a5894225/)** - Full Stack Developer & System Architecture
-- **[Md Ahasanul Haque Sazid](https://www.linkedin.com/in/sksazid/)** - Backend Developer & SmythOS Agent and SmythOS SRE Integration
+### 👨‍💻 Team SUST_Prompt_Storm
+- [Abhishek Dash](https://www.linkedin.com/in/abhishek-dash-60762322a/) - Team Leader, Frontend Developer & UI/UX
+- [Badhon Ahmad](https://www.linkedin.com/in/badhon-ahmad-5a5894225/) - Full Stack Developer & System Architecture
+- [Md Ahasanul Haque Sazid](https://www.linkedin.com/in/sksazid/) - Backend Developer & SmythOS Agent Integration
 
 <div align="center">
 
@@ -58,19 +66,18 @@
 
 </div>
 
-### 🌟 **What We Learned**
-- ✅ **Effective teamwork** under pressure
-- ✅ **Error handling** in tight deadlines
-- ✅ **Confident project presentation** to judges
-- ✅ **Time management** in critical situations
-- ✅ **Fast thinking** and adaptability
-- ✅ **Innovative problem-solving** approaches
+### 🌟 What We Learned
+- ✅ Effective teamwork under pressure
+- ✅ Error handling in tight deadlines
+- ✅ Confident project presentation
+- ✅ Time management and fast thinking
+- ✅ Innovative problem-solving
 
-### 🎯 **Competition Highlights**
+### 🎯 Competition Highlights
 - **Duration**: 48 hours intensive development
 - **Theme**: AI-powered educational solutions
-- **Technology Stack**: SmythOS, Next.js, Node.js, AI/ML
-- **Challenges**: Real-time AI integration, scalable architecture, user experience
+- **Technology**: SmythOS, Next.js, Node.js, AI/ML
+- **Challenges**: Real-time AI integration, scalable architecture, UX
 
 <div align="center">
 
@@ -82,11 +89,9 @@
 
 ---
 
-## 🚀 **Current Deployment Status**
+## 🚀 Current Deployment Status
 
-<div align="center">
-
-### 🌐 **Live Services Status**
+### 🌐 Live Services Status
 
 | Service | Status | URL | Health Check |
 |---------|--------|-----|-------------|
@@ -94,7 +99,7 @@
 | **Main Backend** | ⏳ **Pending** | *Next to deploy* | ⏳ Waiting |
 | **Frontend** | ✅ **READY** | *Enhanced with SmythOS* | ✅ Complete |
 
-### 🛠️ **Available Features**
+### 🛠️ Available Features
 - ✅ **AI Agent Skills**: Email, WebSearch, Document Q&A, PDF Processing, Google Drive
 - ✅ **Natural Language Interface**: Advanced conversational AI with SmythOS integration
 - ✅ **Document Intelligence**: PDF indexing, semantic search, Q&A from study materials
@@ -112,7 +117,7 @@
 - ⏳ **IELTS Test Modules**: Coming with backend deployment
 - ⏳ **User Authentication**: Coming with backend deployment
 
-### 🧪 **Test the Agent Now!**
+### 🧪 Test the Agent Now!
 ```bash
 # Test agent health
 curl https://smart-ielts.onrender.com/health
@@ -148,42 +153,42 @@ curl -X POST https://smart-ielts.onrender.com/api/agent/skills/lookup_document \
 
 ---
 
-## 🎨 **Frontend SmythOS Integration**
+## 🎨 Frontend SmythOS Integration
 
-### 🚀 **Enhanced User Experience**
-Our frontend now features comprehensive SmythOS agent integration with advanced UI components:
+### 🚀 Enhanced User Experience
+Our frontend features comprehensive SmythOS agent integration with advanced UI components:
 
-#### 🤖 **Intelligent Chatbot** (`FloatingChatbot.tsx`)
-- **Smart Intent Detection**: Automatically routes queries to appropriate agent skills
-- **Multi-Modal Responses**: Handles document search, web search, email, and Google Drive operations
-- **Real-time Agent Status**: Live connection monitoring with health indicators
-- **Source Citations**: Shows document sources and confidence scores
-- **Context Awareness**: Maintains conversation history and user preferences
+#### 🤖 Intelligent Chatbot (`FloatingChatbot.tsx`)
+- Smart Intent Detection: Automatically routes queries to appropriate agent skills
+- Multi-Modal Responses: Handles document search, web search, email, and Google Drive operations
+- Real-time Agent Status: Live connection monitoring with health indicators
+- Source Citations: Shows document sources and confidence scores
+- Context Awareness: Maintains conversation history and user preferences
 
-#### 📚 **Study Materials Manager** (`StudyMaterialsManager.tsx`)
-- **Dual Storage View**: Local documents and Google Drive files in one interface
-- **Smart Search**: Semantic search across all indexed materials
-- **Email Sharing**: Send study materials directly to students or groups
-- **Backup Integration**: One-click backup to Google Drive with metadata
-- **Subject Filtering**: Organize by Reading, Writing, Listening, Speaking
+#### 📚 Study Materials Manager (`StudyMaterialsManager.tsx`)
+- Dual Storage View: Local documents and Google Drive files in one interface
+- Smart Search: Semantic search across all indexed materials
+- Email Sharing: Send study materials directly to students or groups
+- Backup Integration: One-click backup to Google Drive with metadata
+- Subject Filtering: Organize by Reading, Writing, Listening, Speaking
 
-#### ❓ **Question Assistant** (`IELTSQuestionAssistant.tsx`)
-- **Multi-Search Modes**: Smart (documents + web), documents only, or web only
-- **Intelligent Answers**: AI-powered responses from vectorized IELTS materials
-- **Question History**: Save and manage previous Q&A sessions
-- **Source Tracking**: See exactly where answers come from
-- **Email Q&A**: Share questions and answers via email
+#### ❓ Question Assistant (`IELTSQuestionAssistant.tsx`)
+- Multi-Search Modes: Smart (documents + web), documents only, or web only
+- Intelligent Answers: AI-powered responses from vectorized IELTS materials
+- Question History: Save and manage previous Q&A sessions
+- Source Tracking: See exactly where answers come from
+- Email Q&A: Share questions and answers via email
 
-#### 📊 **Agent Dashboard** (`AgentDashboard.tsx`)
-- **Real-time Monitoring**: Live agent health and status checking
-- **Skill Testing**: Test all agent capabilities with one click
-- **Performance Metrics**: Response times and success rates
-- **Test Results Log**: Historical performance data
-- **System Information**: Detailed agent configuration and status
+#### 📊 Agent Dashboard (`AgentDashboard.tsx`)
+- Real-time Monitoring: Live agent health and status checking
+- Skill Testing: Test all agent capabilities with one click
+- Performance Metrics: Response times and success rates
+- Test Results Log: Historical performance data
+- System Information: Detailed agent configuration and status
 
-### 🛠️ **Technical Implementation**
+### 🛠️ Technical Implementation
 
-#### 🔧 **API Service Layer** (`agentService.ts`)
+#### 🔧 API Service Layer (`agentService.ts`)
 ```typescript
 // Comprehensive SmythOS agent integration
 class AgentService {
@@ -209,15 +214,15 @@ class AgentService {
 }
 ```
 
-#### 📱 **Demo Page** (`/agent-demo`)
-- **Interactive Showcase**: All SmythOS capabilities in one page
-- **Tabbed Interface**: Chat, Materials, Questions, Dashboard
-- **Subject Filtering**: IELTS-specific content organization
-- **Live Testing**: Real-time agent interaction and testing
+#### 📱 Demo Page (`/agent-demo`)
+- Interactive Showcase: All SmythOS capabilities in one page
+- Tabbed Interface: Chat, Materials, Questions, Dashboard
+- Subject Filtering: IELTS-specific content organization
+- Live Testing: Real-time agent interaction and testing
 
-### 🎯 **Usage Examples**
+### 🎯 Usage Examples
 
-#### 💬 **Natural Language Queries**
+#### 💬 Natural Language Queries
 ```
 "Find IELTS writing examples" → Document search with results
 "Email practice tests to john@example.com" → Email functionality
@@ -226,7 +231,7 @@ class AgentService {
 "What are IELTS speaking topics?" → Intelligent Q&A
 ```
 
-#### 🔧 **Direct API Integration**
+#### 🔧 Direct API Integration
 ```typescript
 // Example component usage
 const handleSearch = async () => {
@@ -240,35 +245,27 @@ const handleSearch = async () => {
 };
 ```
 
-### 📊 **Advanced Features**
-- ✅ **TypeScript Integration**: Full type safety across all components
-- ✅ **Error Handling**: Comprehensive error boundaries and fallbacks
-- ✅ **Loading States**: Smooth UX with proper loading indicators
-- ✅ **Responsive Design**: Mobile-first approach with Tailwind CSS
-- ✅ **Accessibility**: WCAG 2.1 AA compliant components
-- ✅ **Performance**: Optimized with React 18 and Next.js 15
-- ✅ **Real-time Updates**: Live status monitoring and auto-refresh
-- ✅ **Offline Support**: Graceful degradation when agent is unavailable
-
-### 🔗 **Integration Points**
-- **SmythOS Agent API**: Direct integration with all agent skills
-- **Pinecone Vector DB**: Semantic search for IELTS materials
-- **Google Drive API**: File management and backup
-- **Gmail Integration**: Email communication for study materials
-- **Tavily Search**: Real-time web search for current IELTS information
-- **Document Processing**: PDF indexing and intelligent Q&A
+### 📊 Advanced Features
+- ✅ TypeScript Integration: Full type safety across all components
+- ✅ Error Handling: Comprehensive error boundaries and fallbacks
+- ✅ Loading States: Smooth UX with proper loading indicators
+- ✅ Responsive Design: Mobile-first approach with Tailwind CSS
+- ✅ Accessibility: WCAG 2.1 AA compliant components
+- ✅ Performance: Optimized with React 18 and Next.js 15
+- ✅ Real-time Updates: Live status monitoring and auto-refresh
+- ✅ Offline Support: Graceful degradation when agent is unavailable
 
 ---
 
-## 🔗 **AI Agent API Documentation**
+## 🔗 AI Agent API Documentation
 
-### **Base URL**
+### Base URL
 - **Production**: `https://smart-ielts.onrender.com`
 - **Local Development**: `http://localhost:5000`
 
-### **Available Skills**
+### Available Skills
 
-#### 📧 **Email Skill**
+#### 📧 Email Skill
 ```http
 POST /api/agent/skills/send_email
 Content-Type: application/json
@@ -281,7 +278,7 @@ Content-Type: application/json
 }
 ```
 
-#### 🌐 **Web Search Skill**
+#### 🌐 Web Search Skill
 ```http
 POST /api/agent/skills/WebSearch
 Content-Type: application/json
@@ -291,7 +288,7 @@ Content-Type: application/json
 }
 ```
 
-#### 📚 **Document Processing Skills**
+#### 📚 Document Processing Skills
 ```http
 # Index a PDF document
 POST /api/agent/skills/index_document
@@ -312,7 +309,7 @@ POST /api/agent/skills/get_document_info
 }
 ```
 
-#### 🤖 **Natural Language Interface**
+#### 🤖 Natural Language Interface
 ```http
 POST /api/prompt
 Content-Type: application/json
@@ -322,7 +319,7 @@ Content-Type: application/json
 }
 ```
 
-### **Utility Endpoints**
+### Utility Endpoints
 ```http
 # Health check
 GET /health
@@ -349,370 +346,113 @@ POST /api/agent/skills/execute-all
 }
 ```
 
-</div>
-
 ---
 
-## � **Project Idea - SUST Prompt Storm**
+## 💡 Project Vision
 
-<div align="center">
+### 🎯 Vision Statement
 
-![Project Idea](assets/architecture/Project_Idea_SUST_Prompt_Strom.pdf)
-*Comprehensive Project Proposal for Smart IELTS Platform*
+Smart IELTS was conceived as an innovative solution to address the growing need for intelligent, personalized test preparation in the digital age. Our project originated from the observation that traditional IELTS preparation methods often lack personalization, real-time feedback, and comprehensive skill assessment.
 
-</div>
+### 🧠 Core Concept
 
-### 🎯 **Vision Statement**
+An **AI-powered, comprehensive IELTS preparation ecosystem** that combines:
 
-Smart IELTS was conceived as an innovative solution to address the growing need for intelligent, personalized test preparation in the digital age. Our project idea originated from the observation that traditional IELTS preparation methods often lack personalization, real-time feedback, and comprehensive skill assessment.
-
-### 🧠 **Core Concept**
-
-The project idea centers around creating an **AI-powered, comprehensive IELTS preparation ecosystem** that combines:
-
-- **🤖 Intelligent Tutoring**: SmythOS-powered conversational AI for personalized guidance
-- **📊 Adaptive Learning**: Dynamic skill assessment and customized learning paths  
-- **🎯 Holistic Preparation**: Complete coverage of all four IELTS skills (Reading, Writing, Listening, Speaking)
-- **⚡ Real-time Feedback**: Instant evaluation and improvement suggestions
-- **📱 Modern UX**: Intuitive, responsive design for seamless user experience
-
-### 🔬 **Problem Analysis**
-
-Our research identified key challenges in existing IELTS preparation:
-
-1. **Limited Personalization**: One-size-fits-all approaches don't cater to individual learning styles
-2. **Fragmented Resources**: Students struggle with scattered materials and inconsistent quality
-3. **Lack of Speaking Practice**: Limited opportunities for realistic speaking test simulation
-4. **Delayed Feedback**: Traditional methods provide slow, often generic feedback
-5. **Accessibility Issues**: High costs and geographical limitations of quality preparation
-
-### 💎 **Innovative Solutions**
-
-#### 🚀 **AI-Driven Architecture**
-- **SmythOS Integration**: Advanced agent-based system for natural conversation
-- **Multi-Modal AI**: Support for text, audio, and image processing
-- **Intelligent Routing**: Smart skill orchestration for complex user queries
-
-#### 🎨 **User-Centric Design**
-- **Progressive Web App**: Cross-platform accessibility with native app-like experience
-- **Adaptive Interface**: Personalized dashboard based on user progress and preferences
-- **Gamification**: Achievement system to maintain engagement and motivation
-
-#### 📈 **Scalable Technology Stack**
-- **Frontend**: Next.js 15+ with TypeScript for modern, performant user interface
-- **Backend**: Node.js with Express for robust API management
-- **AI Layer**: SmythOS for intelligent agent orchestration
-- **Database**: MongoDB for flexible data storage and retrieval
-
-### 📊 **Expected Impact**
-
-#### 🎓 **For Students**
-- **Personalized Learning**: Tailored study plans based on individual strengths and weaknesses
-- **Comprehensive Practice**: All four IELTS skills in one integrated platform
-- **Instant Feedback**: Real-time performance analysis and improvement suggestions
-- **Accessibility**: 24/7 availability from anywhere with internet connection
-
-#### 🏫 **For Educators**
-- **Analytics Dashboard**: Detailed insights into student progress and common challenges
-- **Resource Management**: Centralized platform for sharing materials and assignments
-- **Automated Assessment**: Reduced workload through AI-powered evaluation
-
-#### 🌍 **For the Education Sector**
-- **Democratized Access**: Quality IELTS preparation available globally
-- **Cost Efficiency**: Reduced reliance on expensive traditional preparation methods
-- **Innovation Showcase**: Demonstration of AI potential in educational technology
-
-### 🔮 **Future Roadmap**
-
-#### Phase 1: Foundation (Completed ✅)
-- Core platform development
-- Basic AI integration
-- Essential IELTS modules
-
-#### Phase 2: Enhancement (In Progress 🔄)
-- Advanced AI features
-- Speaking test simulation
-- Performance analytics
-
-#### Phase 3: Expansion (Planned 📋)
-- Multi-language support
-- Mobile application
-- Institutional partnerships
-- Additional test formats (TOEFL, PTE)
-
-### 🏆 **Project Validation**
-
-The project idea's strength was validated through:
-- **🥇 4th Place** at Inter-University National Hackathon 2025
-- **👥 Community Feedback** from beta testing with 100+ users
-- **🎯 Technical Excellence** recognized by industry experts and judges
-- **📈 Scalability Assessment** confirmed by technical architecture review
-
----
-
-## �📋 **Project Documentation & Resources**
-
-<div align="center">
-
-### 🎨 **Design & Architecture**
-
-| Resource | Description | Link |
-|----------|-------------|------|
-| **🎨 Figma Design** | Complete UI/UX Design System | [View Design](https://www.figma.com/design/FLydtNSPZvmzg1wL2KZA7k/Smart-ILTS-UI?node-id=0-1&t=X9lXbv6Ir1GvVkVS-1) |
-| **📊 Project Presentation** | Comprehensive Project Overview | [View Slides](https://gamma.app/docs/Smart-IELTS-AI-Powered-Exam-Preparation-oiflu0ruio4gt67?mode=doc) |
-| **💻 GitHub Repository** | Source Code & Documentation | [View Repository](https://github.com/BadhonAhmad/Smart-IELTS) |
-| **🏗️ Architecture Diagram** | System Architecture Overview | [View Below](#architecture-overview) |
-| **📱 UI Design System** | Complete Design Specifications | [View Below](#ui-design-assets) |
-
-### 🏗️ **System Architecture**
-
-![Project Workflow](assets/architecture/project%20workflow.jpeg)
-*Complete system architecture and data flow visualization*
-
-### 📱 **UI Design Assets**
-
-#### 📄 Complete UI Design Documentation
-![UI Design System](assets/architecture/Smart-ILTS%20UI.pdf)
-*[Download Complete UI Design PDF](assets/architecture/Smart-ILTS%20UI.pdf)*
-
-### 🛠️ **Technical Architecture**
-
-```mermaid
-graph TD
-    A[User Interface] --> B[Frontend - Next.js]
-    B --> C[Backend API - Node.js]
-    B --> D[Agent Backend - SmythOS]
-    C --> E[Database - MongoDB]
-    D --> F[AI Services]
-    F --> G[Gemini AI]
-    F --> H[ElevenLabs]
-    F --> I[Pinecone Vector DB]
-    F --> J[Tavily Search]
-    D --> K[Email Service]
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#fce4ec
-    style F fill:#f1f8e9
-```
-
-</div>
-
----
-
-## 🎨 **Design System & UI Documentation**
-
-### **Figma Design System**
-
-<div align="center">
-
-[![Figma Design](https://img.shields.io/badge/Figma-Design%20System-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/FLydtNSPZvmzg1wL2KZA7k/Smart-ILTS-UI?node-id=0-1&t=X9lXbv6Ir1GvVkVS-1)
-
-**[🎨 View Complete Figma Design System](https://www.figma.com/design/FLydtNSPZvmzg1wL2KZA7k/Smart-ILTS-UI?node-id=0-1&t=X9lXbv6Ir1GvVkVS-1)**
-
-</div>
-
-### **Design Features**
-- **🎯 Modern UI/UX**: Clean, intuitive interface design
-- **📱 Responsive Design**: Mobile-first approach with adaptive layouts
-- **🎨 Consistent Branding**: Cohesive visual identity throughout
-- **♿ Accessibility**: WCAG 2.1 AA compliant design patterns
-- **🌙 Dark Mode**: Elegant dark theme for enhanced user experience
-- **✨ Micro-interactions**: Smooth animations and transitions
-
-### **UI Components**
-- **📋 Test Interface**: Interactive question and answer components
-- **📊 Analytics Dashboard**: Progress tracking and performance visualization
-- **🎤 Voice Interface**: Speaking practice and evaluation UI
-- **📚 Learning Materials**: Document viewer and study resources
-- **👤 User Management**: Authentication and profile management
-- **🤖 AI Chat Interface**: Conversational AI interaction design
-
-### **Technical Specifications**
-- **🎨 Design Tool**: Figma (Professional)
-- **📐 Grid System**: 12-column responsive grid
-- **🎭 Typography**: Inter font family with optimized weights
-- **🌈 Color Palette**: Carefully selected accessible color schemes
-- **📏 Spacing**: 8px base unit consistent spacing system
-- **🔧 Components**: Reusable design system components
-
-### **Local Design Assets**
-
-#### 📱 **UI Design System Documentation**
-📄 **[Download Complete UI Design PDF](assets/architecture/Smart-ILTS%20UI.pdf)**
-
-```
-assets/architecture/
-├── 📄 Smart-ILTS UI.pdf      # Complete UI design documentation
-└── 🖼️ project workflow.jpeg   # System architecture visualization
-```
+- 🤖 **Intelligent Tutoring**: SmythOS-powered conversational AI for personalized guidance
+- 📊 **Adaptive Learning**: Dynamic skill assessment and customized learning paths
+- 🎯 **Holistic Preparation**: Complete coverage of all four IELTS skills
+- ⚡ **Real-time Feedback**: Instant evaluation and improvement suggestions
+- 📱 **Modern UX**: Intuitive, responsive design for seamless experience
 
 ---
 
 ## 🌟 Overview
 
-Smart IELTS is a revolutionary AI-powered test preparation platform designed to provide comprehensive, personalized, and interactive preparation for standardized English proficiency tests. Built with modern web technologies and integrated with advanced AI models, it offers an unparalleled learning experience that adapts to each student's unique needs.
+Smart IELTS is a revolutionary AI-powered test preparation platform designed to provide comprehensive, personalized, and interactive preparation for IELTS. Built with modern web technologies and integrated with advanced AI models, it offers an unparalleled learning experience that adapts to each student's unique needs.
 
-### 🎯 Mission Statement
-To democratize access to high-quality test preparation by leveraging artificial intelligence, making world-class IELTS preparation accessible to students worldwide, regardless of their geographical location or economic background.
+**Mission**: To democratize access to high-quality test preparation by leveraging artificial intelligence, making world-class IELTS preparation accessible to students worldwide.
 
 ---
 
 ## 🚨 Problems We Solve
 
-### 1. **Limited Access to Quality Coaching**
-- **Problem**: Premium IELTS coaching centers are expensive and geographically limited
-- **Impact**: Students in remote areas or with budget constraints lack access to quality preparation
-
-### 2. **Lack of Personalized Feedback**
-- **Problem**: Traditional preparation methods provide generic feedback
-- **Impact**: Students struggle to identify and improve their specific weak areas
-
-### 3. **Speaking Practice Limitations**
-- **Problem**: Limited opportunities for realistic speaking practice with qualified instructors
-- **Impact**: Students lack confidence and fluency in actual test scenarios
-
-### 4. **Inconsistent Progress Tracking**
-- **Problem**: No centralized system to monitor progress across all four IELTS skills
-- **Impact**: Students can't measure improvement or identify patterns in their performance
-
-### 5. **Outdated Practice Materials**
-- **Problem**: Static, repetitive practice tests that don't adapt to student performance
-- **Impact**: Reduced engagement and ineffective learning outcomes
-
-### 6. **Real-time Evaluation Challenges**
-- **Problem**: Delayed feedback on writing and speaking tasks
-- **Impact**: Slower learning curve and missed opportunities for immediate correction
+1. **Limited Access to Quality Coaching** - Premium coaching centers are expensive and geographically limited
+2. **Lack of Personalized Feedback** - Traditional methods provide generic feedback
+3. **Speaking Practice Limitations** - Limited opportunities for realistic practice
+4. **Inconsistent Progress Tracking** - No centralized system to monitor progress
+5. **Outdated Practice Materials** - Static, repetitive tests that don't adapt
+6. **Real-time Evaluation Challenges** - Delayed feedback on writing and speaking
 
 ---
 
 ## 💡 Our Solutions
 
-### 🤖 **AI-Powered Intelligent Tutoring**
-- **Advanced AI Integration**: Utilizes Google's Gemini AI for sophisticated content evaluation
-- **Natural Language Processing**: Provides detailed, contextual feedback on writing and speaking
-- **Adaptive Learning**: Adjusts difficulty and content based on individual performance patterns
+### 🤖 AI-Powered Intelligent Tutoring
+- Google's Gemini AI for sophisticated content evaluation
+- Natural Language Processing with detailed, contextual feedback
+- Adaptive Learning that adjusts to individual performance patterns
 
-### 🎙️ **Revolutionary Voice Technology**
-- **ElevenLabs Integration**: Natural, human-like AI conversations for speaking practice
-- **Real-time Speech Analysis**: Instant pronunciation, fluency, and grammar feedback
-- **Immersive Practice Sessions**: Simulates actual IELTS speaking test environment
+### 🎙️ Revolutionary Voice Technology
+- ElevenLabs Integration for natural, human-like AI conversations
+- Real-time Speech Analysis with instant pronunciation, fluency, and grammar feedback
+- Immersive Practice Sessions simulating actual IELTS speaking test environment
 
-### 📊 **Comprehensive Analytics Dashboard**
-- **Progress Visualization**: Interactive charts showing improvement trends
-- **Band Score Prediction**: AI-powered score estimation based on performance data
-- **Skill-specific Insights**: Detailed breakdowns for Reading, Writing, Listening, and Speaking
+### 📊 Comprehensive Analytics Dashboard
+- Progress Visualization with interactive charts
+- Band Score Prediction using AI-powered estimation
+- Skill-specific Insights for Reading, Writing, Listening, and Speaking
 
-### 🎯 **Personalized Learning Paths**
-- **Adaptive Question Banks**: Dynamic content selection based on performance
-- **Weakness Identification**: Pinpoints specific areas needing improvement
-- **Customized Study Plans**: AI-generated schedules tailored to individual goals
+### 🎯 Personalized Learning Paths
+- Adaptive Question Banks with dynamic content selection
+- Weakness Identification for targeted improvement
+- Customized Study Plans tailored to individual goals
 
-### 🔗 **Advanced MCP Server Integration**
-- **Model Context Protocol**: Seamless AI model communication and context sharing
-- **SmythOS Agent Integration**: Connected through MCP server for enhanced AI capabilities
-- **Multi-Agent Coordination**: Synchronized AI agents for comprehensive test preparation
-- **Context-Aware Responses**: Enhanced AI understanding through persistent context management
-- **Scalable AI Architecture**: Modular AI services with standardized communication protocols
+### 📚 Intelligent Document Processing (RAG System)
+- SmythOS RAG Agent for document analysis and Q&A
+- Pinecone Vector Database for semantic document search
+- PDF Processing Pipeline with automated indexing
+- Intelligent Q&A System for uploaded study materials
+- Real-time Document Analysis and understanding
 
-### 📚 **Intelligent Document Processing (RAG System)**
-- **Dedicated SmythOS RAG Agent**: Specialized agent for document analysis and question answering
-- **Pinecone Vector Database**: High-performance vector storage for semantic document search
-- **PDF Processing Pipeline**: Automated extraction and indexing of IELTS preparation materials
-- **Intelligent Q&A System**: Students can ask questions about uploaded PDFs and receive contextual answers
-- **Semantic Search**: Advanced retrieval of relevant information from large document collections
-- **Real-time Document Analysis**: Instant processing and understanding of new educational materials
-
-### 🌍 **Global Accessibility**
-- **24/7 Availability**: Practice anytime, anywhere with internet access
-- **Multi-device Support**: Seamless experience across desktop, tablet, and mobile
-- **Cost-effective Solution**: Premium preparation at a fraction of traditional coaching costs
+### 🌍 Global Accessibility
+- 24/7 Availability from anywhere with internet access
+- Multi-device Support across desktop, tablet, and mobile
+- Cost-effective Solution at a fraction of traditional coaching costs
 
 ---
 
 ## ⚙️ Technology Stack
 
-### **Frontend Architecture**
-```
-Next.js 15.5.3 + TypeScript + React 18
-├── UI Framework: Tailwind CSS
-├── Animations: Framer Motion
-├── Charts: Recharts
-├── Icons: Lucide React
-├── Voice: ElevenLabs Client SDK
-├── SmythOS Integration: Custom Agent Service
-├── Components: FloatingChatbot, StudyMaterialsManager
-├── Features: IELTSQuestionAssistant, AgentDashboard
-└── Demo: Complete Agent Integration Showcase
-```
+### Frontend Architecture
+- **Framework**: Next.js 15.5.3 + TypeScript + React 18
+- **UI**: Tailwind CSS, Framer Motion, Recharts, Lucide React
+- **Voice**: ElevenLabs Client SDK
+- **AI Integration**: Custom SmythOS Agent Service
 
-### **Backend Infrastructure**
-```
-Node.js + Express.js
-├── AI Integration: Google Gemini API
-├── Authentication: JWT + bcrypt
-├── File Handling: Multer
-├── Testing: Jest + Supertest
-└── Database: SQLite with potential PostgreSQL scaling
-```
+### Backend Infrastructure
+- **Runtime**: Node.js + Express.js
+- **AI**: Google Gemini API
+- **Auth**: JWT + bcrypt
+- **File Handling**: Multer
+- **Testing**: Jest + Supertest
+- **Database**: SQLite with PostgreSQL scaling option
 
-### **AI Agent Backend (SmythOS)**
-```
-SmythOS SRE + Node.js + TypeScript
-├── AI Agent Framework: SmythOS SRE
-├── Vector Database: Pinecone (Semantic Search)
-├── Language Model: Google Gemini AI
-├── LLM Integration: Groq (llama-3.1-8b-instant)
-├── Web Search: Tavily API
-├── Email Service: External Smyth API
-├── Document Processing: PDF indexing & RAG
-├── Natural Language: Conversational AI interface
-├── RESTful API: Complete endpoint suite
-└── Production Ready: Deployed on Render
-```
-
-### **AI & Voice Services**
-```
-AI Services
-├── Google Gemini AI: Content evaluation & generation
-├── Groq LLM: Fast inference for chat interactions
-├── ElevenLabs: Natural voice conversation
-├── SmythOS Agents: Advanced AI workflow automation
-├── MCP Server: Model Context Protocol integration
-├── Pinecone Vector DB: Semantic search & RAG system
-├── Tavily API: Comprehensive web search
-└── Custom NLP: Performance analysis algorithms
-```
-
-### **Document Processing & RAG**
-```
-RAG Infrastructure
-├── SmythOS RAG Agent: Dedicated document Q&A
-├── Pinecone Vector Database: High-performance vector storage
-├── PDF Processing Pipeline: Document extraction & indexing
-├── Semantic Search Engine: Context-aware information retrieval
-└── MCP Protocol: Agent communication & coordination
-```
+### AI Agent Backend (SmythOS)
+- **Framework**: SmythOS SRE + Node.js + TypeScript
+- **Vector DB**: Pinecone for semantic search
+- **LLM**: Google Gemini AI + Groq (llama-3.1-8b-instant)
+- **Search**: Tavily API
+- **Email**: External Smyth API
+- **Document Processing**: PDF indexing & RAG
+- **Status**: Production-ready, deployed on Render
 
 ---
 
 ## 🏗️ Architecture Overview
 
-<div align="center">
-
-### 📊 **System Architecture Diagram**
 ![Project Workflow](assets/architecture/project%20workflow.jpeg)
-*Complete system architecture and data flow visualization*
 
-### 📱 **UI/UX Design System**
-📄 **[Complete UI Design Documentation](assets/architecture/Smart-ILTS%20UI.pdf)**
-*Download the full UI design specifications and component library*
-
-</div>
-
-### **High-Level Architecture**
+### High-Level Architecture
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Frontend      │    │     Backend      │    │  Agent Backend  │    │   AI Services   │
@@ -738,7 +478,7 @@ RAG Infrastructure
                          └─────────────┘        └───────────────┘
 ```
 
-### **Agent Backend Architecture**
+### Agent Backend Architecture
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                    SmythOS Agent Backend                   │
@@ -771,9 +511,9 @@ RAG Infrastructure
 ## 🚀 Getting Started
 
 ### Prerequisites
-- **Node.js** 18.0 or higher
-- **npm** or **yarn** package manager
-- **Git** for version control
+- Node.js 18.0 or higher
+- npm or yarn package manager
+- Git for version control
 
 ### Quick Setup
 
@@ -799,8 +539,8 @@ RAG Infrastructure
    ```
 
 3. **Environment Configuration**
-   
-   **Backend (.env)**
+
+   Backend `.env`:
    ```env
    PORT=5000
    GEMINI_API_KEY=your_gemini_api_key
@@ -808,7 +548,7 @@ RAG Infrastructure
    NODE_ENV=development
    ```
 
-   **Frontend (.env.local)**
+   Frontend `.env.local`:
    ```env
    NEXT_PUBLIC_API_URL=http://localhost:5000/api
    NEXT_PUBLIC_ELEVENLABS_API_KEY=your_elevenlabs_key
@@ -828,16 +568,7 @@ RAG Infrastructure
 5. **Access the Application**
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:5000
-   - **Agent Demo**: http://localhost:3000/agent-demo (🆕 SmythOS Integration Showcase)
-
-6. **Explore SmythOS Agent Features**
-   ```bash
-   # Visit the agent demo page to see:
-   # - Intelligent chatbot with multi-skill routing
-   # - Study materials management with Google Drive
-   # - Question assistant with document search
-   # - Real-time agent monitoring dashboard
-   ```
+   - Agent Demo: http://localhost:3000/agent-demo
 
 ---
 
@@ -845,171 +576,83 @@ RAG Infrastructure
 
 ```
 Smart-IELTS/
-├── 📁 assets/                # Project assets and documentation
-│   ├── 📁 architecture/      # System architecture diagrams
-│   │   ├── 📄 Smart-ILTS UI.pdf          # Complete UI design specs
-│   │   └── 🖼️ project workflow.jpeg     # System architecture diagram
-│   ├── 📁 final/             # Hackathon final presentation assets
-│   └── 📁 selection_round/   # Selection round documentation
-├── 📁 frontend/              # Next.js React application
-│   ├── 📁 src/
-│   │   ├── 📁 app/           # App Router pages
-│   │   │   └── 📁 agent-demo/ # SmythOS integration demo
-│   │   ├── 📁 components/    # Reusable UI components
-│   │   │   ├── 📄 FloatingChatbot.tsx    # Enhanced AI chatbot
-│   │   │   ├── 📄 StudyMaterialsManager.tsx # Document management
-│   │   │   ├── 📄 IELTSQuestionAssistant.tsx # Q&A system
-│   │   │   └── � AgentDashboard.tsx      # Agent monitoring
-│   │   ├── 📁 lib/           # Service layer
-│   │   │   └── 📄 agentService.ts        # SmythOS API integration
-│   │   ├── �📁 models/        # TypeScript definitions
-│   │   └── 📁 utils/         # Helper functions
-│   │       └── 📄 api.ts     # Enhanced API endpoints
-│   ├── 📄 package.json
-│   ├── 📄 SMYTHOS_INTEGRATION.md # Frontend integration docs
-│   └── 📄 README.md
-├── 📁 backend/               # Node.js Express API
-│   ├── 📁 src/
-│   │   ├── 📁 controllers/   # Request handlers
-│   │   ├── 📁 models/        # Data models
-│   │   ├── 📁 routes/        # API endpoints
-│   │   ├── 📁 services/      # Business logic
-│   │   └── 📁 middleware/    # Custom middleware
-│   ├── 📁 tests/             # Test suites
-│   ├── 📄 package.json
-│   └── 📄 README.md
-├── 📁 agentbackend/          # SmythOS AI agent services
-│   ├── 📁 src/               # Agent source code
-│   ├── 📁 data/              # AI training data and PDFs
-│   └── 📄 package.json
-├── 📄 README.md              # This file
-├── 📄 SmythOS_Agent_and_SRE.md # Detailed AI agent documentation
-└── 📄 RENDER_DEPLOYMENT_GUIDE.md  # Deployment instructions
+├── assets/                   # Project assets and documentation
+│   ├── architecture/         # System architecture diagrams
+│   ├── final/                # Hackathon final presentation
+│   └── selection_round/      # Selection round documentation
+├── frontend/                 # Next.js React application
+│   ├── src/
+│   │   ├── app/              # App Router pages
+│   │   ├── components/       # UI components (Chatbot, Dashboard, etc.)
+│   │   ├── lib/              # Service layer (agentService.ts)
+│   │   ├── models/           # TypeScript definitions
+│   │   └── utils/            # Helper functions
+│   └── package.json
+├── backend/                  # Node.js Express API
+│   ├── src/
+│   │   ├── controllers/      # Request handlers
+│   │   ├── models/           # Data models
+│   │   ├── routes/           # API endpoints
+│   │   ├── services/         # Business logic
+│   │   └── middleware/       # Custom middleware
+│   └── tests/                # Test suites
+├── agentbackend/             # SmythOS AI agent services
+│   ├── src/                  # Agent source code
+│   └── data/                 # AI training data and PDFs
+├── README.md                 # This file
+├── SmythOS_Agent_and_SRE.md  # AI agent documentation
+└── RENDER_DEPLOYMENT_GUIDE.md # Deployment instructions
 ```
 
 ---
 
 ## 🎯 Core Features
 
-### 🤖 **SmythOS Agent Integration**
+### 🤖 SmythOS Agent Integration
+- **Intelligent Chatbot**: Context-aware conversational AI with smart intent detection
+- **Document Intelligence**: Semantic search and AI-powered Q&A from vectorized documents
+- **Google Drive Integration**: Automatic PDF backup with smart organization
+- **Email Communication**: Send study materials and progress reports
+- **Real-time Web Search**: Current IELTS information and updates
+- **Monitoring Dashboard**: Real-time health status and performance metrics
 
-#### 💬 **Intelligent Chatbot Interface**
-- Context-aware conversational AI
-- Smart intent detection and routing
-- Multi-modal response handling
-- Real-time agent health monitoring
-- Source citations and confidence scoring
+### 📚 IELTS Test Modules
+- **📖 Reading**: Interactive passages with adaptive difficulty
+- **✍️ Writing**: AI-powered evaluation with band score prediction
+- **🎧 Listening**: Natural AI voice with multi-accent practice
+- **🗣️ Speaking**: Real-time conversation with pronunciation analysis
 
-#### 📚 **Document Intelligence System**
-- Semantic search through IELTS study materials
-- AI-powered Q&A from vectorized documents
-- PDF indexing and processing pipeline
-- Intelligent document recommendations
-- Multi-format support with metadata extraction
-
-#### ☁️ **Google Drive Integration**
-- Automatic PDF backup with smart organization
-- Real-time file synchronization
-- Metadata-rich file management
-- Shareable links generation
-- Subject-based folder structure
-
-#### 📧 **Email Communication Hub**
-- Send study materials to individuals or groups
-- Progress report automation
-- Custom email templates for IELTS preparation
-- Attachment handling and formatting
-- Delivery confirmation and tracking
-
-#### 🌐 **Real-time Web Search**
-- Current IELTS information and updates
-- Exam format changes and announcements
-- Study resource discovery
-- News and preparation tips
-- Filtered and verified results
-
-#### 📊 **Agent Monitoring Dashboard**
-- Real-time health status monitoring
-- Skill performance testing
-- API response time tracking
-- Error rate analysis
-- System configuration display
-
-### 📚 **IELTS Test Modules**
-
-#### 📖 Reading Comprehension
-- Interactive passage reading interface
-- Adaptive question difficulty
-- Time management tools
-- Detailed performance analytics
-- Smart document search integration
-
-#### ✍️ Writing Assessment
-- AI-powered essay evaluation
-- Grammar and style feedback
-- Band score prediction
-- Template suggestions
-- Example essay database
-
-#### 🎧 Listening Practice
-- Natural AI voice narration
-- Multi-accent practice
-- Interactive question formats
-- Progress tracking
-- Audio transcript analysis
-
-#### 🗣️ Speaking Evaluation
-- Real-time conversation with AI
-- Pronunciation analysis
-- Fluency assessment
-- Comprehensive feedback
-- Speaking topic suggestions
-
-### 📊 **Advanced Analytics**
+### 📊 Advanced Analytics
 - Personal progress dashboard
 - Skill-specific performance metrics
 - Band score history tracking
 - Weakness identification
-- Study time analytics
 - AI-powered insights
 
-### 🎮 **Gamification Elements**
-- Achievement badges
-- Progress milestones
+### 🎮 Gamification
+- Achievement badges and milestones
 - Daily challenges
-- Leaderboards (optional)
 - Streak tracking
 
 ---
 
-## 🌐 Extensibility & Future Applications
+## 🌐 Future Extensibility
 
-### 📝 **Standardized Test Support**
-Smart IELTS is architected for easy extension to support additional standardized tests:
+Smart IELTS architecture supports extension to additional standardized tests:
 
-#### 🎓 **Graduate School Preparation**
-- **GRE (Graduate Record Examination)**
-  - Verbal Reasoning
-  - Quantitative Reasoning
-  - Analytical Writing
-
-- **GMAT (Graduate Management Admission Test)**
-  - Analytical Writing Assessment
-  - Integrated Reasoning
-  - Quantitative Section
-  - Verbal Section
-
-#### 🏫 **Other English Proficiency Tests**
-- **TOEFL** (Test of English as a Foreign Language)
-- **PTE** (Pearson Test of English)
-- **Cambridge English** (FCE, CAE, CPE)
+### 🎓 Planned Test Support
+- **GRE**: Graduate Record Examination
+- **GMAT**: Graduate Management Admission Test
+- **TOEFL**: Test of English as a Foreign Language
+- **PTE**: Pearson Test of English
+- **Cambridge English**: FCE, CAE, CPE
 - **Duolingo English Test**
 
-#### 🔧 **Modular Architecture Benefits**
-- **Flexible Content Management**: Easy addition of new question types
-- **Scalable AI Integration**: Pluggable AI services for different test formats
-- **Customizable UI Components**: Reusable interface elements
-- **Multi-language Support**: Framework ready for localization
+### 🔧 Architecture Benefits
+- Flexible content management for new question types
+- Scalable AI integration for different test formats
+- Reusable UI components
+- Multi-language support ready
 
 ---
 
@@ -1038,54 +681,47 @@ docker-compose up --build
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Here's how you can help:
+We welcome contributions! Ways to help:
+1. 🐛 Bug Reports - Submit detailed issue reports
+2. 💡 Feature Requests - Suggest new functionality
+3. 🔀 Code Contributions - Submit pull requests
+4. 📝 Documentation - Improve docs and tutorials
+5. 🌍 Translations - Help localize the platform
 
-### **Ways to Contribute**
-1. 🐛 **Bug Reports**: Submit detailed issue reports
-2. 💡 **Feature Requests**: Suggest new functionality
-3. 🔀 **Code Contributions**: Submit pull requests
-4. 📝 **Documentation**: Improve docs and tutorials
-5. 🌍 **Translations**: Help localize the platform
-
-### **Development Workflow**
+### Development Workflow
 ```bash
-# 1. Fork the repository
+# Fork and clone
 git fork https://github.com/BadhonAhmad/Smart-IELTS.git
+git clone <your-fork>
 
-# 2. Create feature branch
+# Create feature branch
 git checkout -b feature/amazing-feature
 
-# 3. Make changes and commit
+# Make changes, commit, and push
 git commit -m "Add amazing feature"
-
-# 4. Push to branch
 git push origin feature/amazing-feature
 
-# 5. Open Pull Request
+# Open Pull Request
 ```
 
-### **Code Standards**
-- Follow ESLint configuration
-- Write comprehensive tests
-- Update documentation
-- Use TypeScript for type safety
+**Code Standards**: Follow ESLint configuration, write tests, update documentation, use TypeScript
 
 ---
 
 ## 📊 Performance Metrics
 
-### **Current Statistics**
-- ⚡ **Page Load Speed**: < 2 seconds
-- 🎯 **AI Response Time**: < 3 seconds
-- 📱 **Mobile Optimization**: 95+ Lighthouse score
-- 🔒 **Security Rating**: A+ SSL Labs
-- ♿ **Accessibility**: WCAG 2.1 AA compliant
+### Current Statistics
+- ⚡ Page Load Speed: < 2 seconds
+- 🎯 AI Response Time: < 3 seconds
+- 📱 Mobile Optimization: 95+ Lighthouse score
+- 🔒 Security Rating: A+ SSL Labs
+- ♿ Accessibility: WCAG 2.1 AA compliant
 
-### **Scalability**
-- 👥 **Concurrent Users**: 1000+ supported
-- 📊 **Database Performance**: Optimized queries
-- 🌐 **CDN Integration**: Global content delivery
-- 🔄 **Auto-scaling**: Cloud-native architecture
+### Scalability
+- 👥 Concurrent Users: 1000+ supported
+- 📊 Database Performance: Optimized queries
+- 🌐 CDN Integration: Global content delivery
+- 🔄 Auto-scaling: Cloud-native architecture
 
 ---
 
@@ -1096,60 +732,49 @@ git push origin feature/amazing-feature
 - 🌟 **Top 50 Finalist** - Among 250+ participating teams
 - 🎯 **Innovation in Education Technology** - AI-powered Learning Platform
 
-### 🏅 **Competition Journey**
-- **Preliminary Round**: 6th position out of ~250 teams
-- **Final Round**: Top 50 teams onsite competition  
-- **Final Ranking**: 4th position overall
-- **Special Recognition**: Outstanding use of SmythOS platform
+**Competition Journey**: 6th position (preliminary, ~250 teams) → Top 50 finalists → 4th position overall
 
 ---
 
 ## 📈 Roadmap
 
-### **Phase 1: Hackathon MVP** ✅
+### Phase 1: Hackathon MVP ✅
 - Core IELTS skills implementation
 - AI-powered evaluation system
 - SmythOS agent integration
-- Real-time feedback system
 
-### **Phase 1.5: Production Deployment** 🚧
-- ✅ **Agent Backend**: Deployed and fully functional
-- ⏳ **Main Backend**: Deployment in progress
-- ⏳ **Frontend**: Next in deployment queue
-- ✅ **AI Skills**: Email and WebSearch capabilities live
+### Phase 1.5: Production Deployment 🚧
+- ✅ Agent Backend: Deployed and functional
+- ⏳ Main Backend: In progress
+- ⏳ Frontend: Next in queue
 
-### **Phase 2: Enhanced Features** �
+### Phase 2: Enhanced Features 🔄
 - Advanced analytics dashboard
 - Multi-modal AI interactions
 - Enhanced voice recognition
-- Comprehensive progress tracking
 
-### **Phase 3: Production Scale** 📋
+### Phase 3: Production Scale 📋
 - Mobile application development
 - Cloud deployment optimization
 - Advanced security features
-- Performance enhancements
 
-### **Phase 4: Platform Expansion** 🤝
+### Phase 4: Platform Expansion 🤝
 - Multiple test support (GRE, GMAT, TOEFL)
 - Community features
 - Expert mentor integration
-- Global competition platform
 
 ---
 
 ## 📞 Support
 
-### **Getting Help**
-- 📧 **Email**: ahasanulhaque20@gmail.com
-- 📖 **Documentation**: Comprehensive guides available
-- 🐛 **Issues**: GitHub issue tracker
+### Getting Help
+- 📧 Email: ahasanulhaque20@gmail.com
+- 📖 Documentation: Comprehensive guides available
+- 🐛 Issues: GitHub issue tracker
 
-### **Community**
-- 🌐 **Portfolio**: [sksazid.me](http://sksazid.me)
-- 📱 **LinkedIn**: [Md Ahasanul Haque Sazid](https://www.linkedin.com/in/sksazid/)
-- 📝 **Blog**: Latest features and tutorials
-- 🎥 **Demo Videos**: Project demonstrations
+### Community
+- 🌐 Portfolio: [sksazid.me](http://sksazid.me)
+- 📱 LinkedIn: [Md Ahasanul Haque Sazid](https://www.linkedin.com/in/sksazid/)
 
 ---
 
@@ -1161,39 +786,22 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 🙏 Acknowledgments
 
-### **Special Thanks**
-- **Green University of Bangladesh** - For hosting an amazing hackathon
-- **SmythOS Team** - For providing cutting-edge AI platform and support
-- **Hackathon Organizers** - For creating an incredible learning environment
-- **Fellow Competitors** - For inspiring innovation and healthy competition
-- **Judges & Mentors** - For valuable feedback and guidance
+### Special Thanks
+- Green University of Bangladesh - For hosting the hackathon
+- SmythOS Team - For cutting-edge AI platform and support
+- Hackathon Organizers, Judges & Mentors - For guidance and feedback
 
-### **Technology Partners**
-- **Google Gemini AI** - For advanced language processing capabilities
-- **ElevenLabs** - For natural voice AI technology  
-- **SmythOS Platform** - For comprehensive AI agent orchestration ([Builder Workflow](https://app.smythos.com/builder/cmfwa1ah7ycfcjxgthiwbjwr9) | [Live Deployment](https://cmfwa1ah7ycfcjxgthiwbjwr9.agent.a.smyth.ai/swagger))
-- **Pinecone** - For vector database and semantic search
-- **Tavily** - For intelligent web search capabilities
-- **Next.js Team** - For the amazing React framework
-- **Figma** - For comprehensive UI/UX design system
-- **Open Source Community** - For incredible tools and libraries
+### Technology Partners
+- Google Gemini AI, ElevenLabs, SmythOS Platform
+- Pinecone, Tavily, Next.js Team, Figma
+- Open Source Community
 
-### **Project Resources**
-- **🎨 Figma Design System**: [Complete UI/UX Documentation](https://www.figma.com/design/FLydtNSPZvmzg1wL2KZA7k/Smart-ILTS-UI?node-id=0-1&t=X9lXbv6Ir1GvVkVS-1)
-- **📊 Project Presentation**: [Comprehensive Overview Slides](https://gamma.app/docs/Smart-IELTS-AI-Powered-Exam-Preparation-oiflu0ruio4gt67?mode=doc)
-- **� GitHub Repository**: [Source Code & Documentation](https://github.com/BadhonAhmad/Smart-IELTS)
-- **🏗️ Architecture Assets**: Local documentation in `/assets/architecture/`
-- **📖 Detailed SmythOS Implementation**: See [SmythOS_Agent_and_SRE.md](SmythOS_Agent_and_SRE.md) for comprehensive documentation
-- **🚀 Frontend Integration Guide**: See [frontend/SMYTHOS_INTEGRATION.md](frontend/SMYTHOS_INTEGRATION.md) for complete frontend documentation
-- **🎯 Agent Demo**: Visit `/agent-demo` to experience all SmythOS capabilities live
-
-### **Inspiration**
-This project was born during an intense 48-hour hackathon where we learned the power of:
-- **Collaborative development** under pressure
-- **Rapid prototyping** with modern technologies
-- **AI integration** for educational solutions
-- **User-centric design** in limited time
-- **Innovation through constraints**
+### Project Resources
+- 🎨 [Figma Design System](https://www.figma.com/design/FLydtNSPZvmzg1wL2KZA7k/Smart-ILTS-UI?node-id=0-1&t=X9lXbv6Ir1GvVkVS-1)
+- 📊 [Project Presentation](https://gamma.app/docs/Smart-IELTS-AI-Powered-Exam-Preparation-oiflu0ruio4gt67?mode=doc)
+- 💻 [GitHub Repository](https://github.com/BadhonAhmad/Smart-IELTS)
+- 📖 [SmythOS Documentation](SmythOS_Agent_and_SRE.md)
+- 🚀 [Frontend Integration Guide](frontend/SMYTHOS_INTEGRATION.md)
 
 ---
 
@@ -1217,8 +825,8 @@ This project was born during an intense 48-hour hackathon where we learned the p
 | 📊 **Presentation** | [Project Overview Slides](https://gamma.app/docs/Smart-IELTS-AI-Powered-Exam-Preparation-oiflu0ruio4gt67?mode=doc) |
 | 💻 **GitHub Repository** | [Source Code & Docs](https://github.com/BadhonAhmad/Smart-IELTS) |
 | 🤖 **SmythOS Agent** | [AI Agent Documentation](SmythOS_Agent_and_SRE.md) |
-| � **Agent Demo** | [Frontend Integration Showcase](/agent-demo) |
-| �🏗️ **Architecture** | [View Assets Below](#local-design-assets) |
+| 🎯 **Agent Demo** | [Frontend Integration Showcase](/agent-demo) |
+| 🏗️ **Architecture** | [System Architecture](#architecture-overview) |
 
 ---
 
